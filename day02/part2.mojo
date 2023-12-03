@@ -1,4 +1,4 @@
-def main():
+fn main() raises:
     var f = open('input.txt', 'r')
     let text = f.read()
     f.close()
